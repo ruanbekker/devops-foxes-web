@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #1e1e1e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Center everything */
+.container {
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Fox image */
+.fox-container img {
+  width: 60vw;
+  max-width: 700px;
+  height: auto;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.fox-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Fox name */
+#foxName {
+  margin-bottom: 30px;
+  color: #f5a623;
+}
+
+/* Button */
+button {
+  background: linear-gradient(135deg, #f5a623, #ff7e5f);
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
